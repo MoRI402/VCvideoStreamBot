@@ -153,12 +153,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("Sᴇᴀʀᴄʜ", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DeCodeSupport"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/Animax_Industry"),
+                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AnimaxChatZone"),
             ],
             [
-                InlineKeyboardButton("Bᴏᴛ Lɪꜱᴛ", url="https://t.me/otherBotList"),
-                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://github.com/TeamDeeCode/VcVideoPlayer/tree/alpha"),
+                InlineKeyboardButton("Bᴏᴛ Lɪꜱᴛ", url="https://t.me/weetaku_anime"),
+                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://t.me/Animax_Industry"),
             ],
             [
                 InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
