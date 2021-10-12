@@ -212,11 +212,11 @@ allcmd = ["stream", "playlist", f"stream@{Config.BOT_USERNAME}", f"playlist@{Con
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DeCodeSupport"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/Animax_Industry"),
+                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AnimaxChatZone"),
             ],
             [
-                InlineKeyboardButton("Mᴀᴋᴇ Yᴏᴜʀ Oᴡɴ", url="https://heroku.com/deploy?template=https://github.com/TeamDeeCode/VcVideoPlayer/tree/alpha"),
+                InlineKeyboardButton("Mᴀᴋᴇ Yᴏᴜʀ Oᴡɴ", url="https://t.me/Animax_Industry"),
             ]
          ]
     await m.reply_text(text="`Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This!`", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
