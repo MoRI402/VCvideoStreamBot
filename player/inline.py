@@ -7,14 +7,14 @@ from pyrogram.types import InlineQueryResultArticle, InputTextMessageContent, In
 
 buttons = [
             [
-                InlineKeyboardButton("Bᴏᴛ Lɪꜱᴛ", url="https://t.me/otherBotList"),
+                InlineKeyboardButton("Bᴏᴛ Lɪꜱᴛ", url="https://t.me/weetaku_anime"),
             ],
             [
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/DeCodeSupport"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/Animax_Industry"),
+                InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AnimaxChatZone"),
             ],
             [
-                InlineKeyboardButton("Mᴀᴋᴇ Yᴏᴜʀ Oᴡɴ", url="https://heroku.com/deploy?template=https://github.com/TeamDeeCode/VcVideoPlayer/tree/alpha"),
+                InlineKeyboardButton("Mᴀᴋᴇ Yᴏᴜʀ Oᴡɴ", url="https://t.me/Animax_Industry"),
             ]
          ]
 
@@ -31,7 +31,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy Own Vc Video Player",
-                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@TeamDeeCoDe 👩‍💻</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@Animax_Industry 👩‍💻</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
